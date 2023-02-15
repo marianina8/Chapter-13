@@ -1,8 +1,5 @@
 FROM golang:1.19
 
-# Set the working directory
-WORKDIR /
-
 # Copy all the files
 COPY . .
 
